@@ -28,7 +28,6 @@ public final class OrangeHRMTests extends BaseTest {
 		ohrml.enterUserName(data.get("userName")).enterPassword(data.get("password")).clickLogIn();
 
 		boolean value=ohrmd.welcomeDisplayed();
-
 		assertTrue(value);
 
 		

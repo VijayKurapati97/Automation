@@ -42,10 +42,10 @@ public class CommonUtils {
 	public static boolean  isDisplayed(By by,WaitStrategy waitstrategy,String eleName) throws Exception {
 
 		WebElement element=ExplicitWaitFactory.performexplicitWait(waitstrategy, by);
-		element.isDisplayed();
+		boolean value=element.isDisplayed();
 
 		ExtentLogger.pass(eleName+" is Displayed",true);
-		return false;
+		return value;
 	}
 
 	public static String getElementText(By by,WaitStrategy waitstrategy,String eleName) throws Exception {

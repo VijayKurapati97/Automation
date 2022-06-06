@@ -1,6 +1,8 @@
 package com.qa.pages;
 
 
+import java.nio.file.spi.FileSystemProvider;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -42,12 +44,14 @@ public OrangeHrmAdminPage clickAdmin() {
 		return new OrangeHrmAdminPage();
 	}
 public boolean welcomeDisplayed() {
+	boolean value=false;
 	try {
-		 CommonUtils.isDisplayed(linkWelcome,WaitStrategy.VISIBLE , "welcome link");
+		 value= CommonUtils.isDisplayed(linkWelcome,WaitStrategy.VISIBLE , "welcome link");
 	} catch (Exception e) {
 		e.printStackTrace();
 	}
-	return false;
+	return value;
+	
 	
 }
 
