@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-06T18:34:49 IST" name="Suite" finished-at="2022-06-06T18:35:41 IST" duration-ms="52098">
+    <groups>
+    </groups>
+    <test started-at="2022-06-06T18:34:49 IST" name="Test" finished-at="2022-06-06T18:35:41 IST" duration-ms="52098">
+      <class name="com.qa.tests.OrangeHRMTests">
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:34:50 IST" name="setUp" finished-at="2022-06-06T18:35:02 IST" duration-ms="11924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@71391b3f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:34:50 IST" name="setUp" finished-at="2022-06-06T18:34:58 IST" duration-ms="8131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4078695f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:34:50 IST" name="setUp" finished-at="2022-06-06T18:34:57 IST" duration-ms="6969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@79a1728c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:34:50 IST" name="setUp" finished-at="2022-06-06T18:34:57 IST" duration-ms="7486" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@a7f0ab6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogInTest1(java.util.Map)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:34:57 IST" name="LogInTest1" description="To check weather the user can login  succesfully" data-provider="getData" finished-at="2022-06-06T18:35:03 IST" duration-ms="6791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{employeeName=, employeeUserName=, password=admin123, browser=chrome, userName=Admin, testName=LogInTest1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest1 -->
+        <test-method signature="searchUser(java.util.Map)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:34:57 IST" name="searchUser" description="To check admin page details" data-provider="getData" finished-at="2022-06-06T18:35:09 IST" duration-ms="11526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{employeeName=AS FSD FSD, employeeUserName=as12345, password=admin123, browser=chrome, userName=Admin, testName=searchUser}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchUser -->
+        <test-method signature="LogInLogOutTest(java.util.Map)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:34:58 IST" name="LogInLogOutTest" description="To check weather user can login logout successfully" data-provider="getData" finished-at="2022-06-06T18:35:06 IST" duration-ms="8659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{employeeName=, employeeUserName=, password=admin123, browser=chrome, userName=Admin, testName=LogInLogOutTest}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInLogOutTest -->
+        <test-method signature="LogInTest2(java.util.Map)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:02 IST" name="LogInTest2" description="To check newTest working fine" data-provider="getData" finished-at="2022-06-06T18:35:04 IST" duration-ms="2491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{employeeName=, employeeUserName=, password=admin1234, browser=firefox, userName=Admin, testName=LogInTest2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:03 IST" name="tearDown" finished-at="2022-06-06T18:35:05 IST" duration-ms="1364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:04 IST" name="tearDown" finished-at="2022-06-06T18:35:06 IST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:06 IST" name="setUp" finished-at="2022-06-06T18:35:11 IST" duration-ms="5515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@41f35f7c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:06 IST" name="tearDown" finished-at="2022-06-06T18:35:08 IST" duration-ms="1821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:09 IST" name="tearDown" finished-at="2022-06-06T18:35:09 IST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="LogInTest2(java.util.Map)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:11 IST" name="LogInTest2" description="To check newTest working fine" data-provider="getData" finished-at="2022-06-06T18:35:14 IST" duration-ms="2314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{employeeName=, employeeUserName=, password=admin123, browser=chrome, userName=admn11, testName=LogInTest2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:14 IST" name="tearDown" finished-at="2022-06-06T18:35:14 IST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:14 IST" name="setUp" finished-at="2022-06-06T18:35:22 IST" duration-ms="7978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@42c2f48c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogInTest2(java.util.Map)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:22 IST" name="LogInTest2" description="To check newTest working fine" data-provider="getData" finished-at="2022-06-06T18:35:24 IST" duration-ms="1810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{employeeName=, employeeUserName=, password=admin345, browser=firefox, userName=admin22, testName=LogInTest2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:24 IST" name="tearDown" finished-at="2022-06-06T18:35:25 IST" duration-ms="1062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:25 IST" name="setUp" finished-at="2022-06-06T18:35:30 IST" duration-ms="5003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@3005db4a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogInTest2(java.util.Map)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:30 IST" name="LogInTest2" description="To check newTest working fine" data-provider="getData" finished-at="2022-06-06T18:35:31 IST" duration-ms="546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{employeeName=, employeeUserName=, password=admin786, browser=chrome, userName=, testName=LogInTest2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:31 IST" name="tearDown" finished-at="2022-06-06T18:35:31 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp([Ljava.lang.Object;)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:31 IST" name="setUp" finished-at="2022-06-06T18:35:39 IST" duration-ms="7483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@425d5d46]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="LogInTest2(java.util.Map)[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:39 IST" name="LogInTest2" description="To check newTest working fine" data-provider="getData" finished-at="2022-06-06T18:35:40 IST" duration-ms="633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{employeeName=, employeeUserName=, password=, browser=firefox, userName=Admin, testName=LogInTest2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInTest2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.tests.OrangeHRMTests@e056f20]" started-at="2022-06-06T18:35:40 IST" name="tearDown" finished-at="2022-06-06T18:35:41 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.tests.OrangeHRMTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
