@@ -30,9 +30,8 @@ public final class OrangeHRMTests extends BaseTest {
 		boolean value=ohrmd.welcomeDisplayed();
 
 		assertTrue(value);
-		String title=CommonUtils.getPageTitle();
 
-		Assertions.assertThat(title).isEqualTo("OrangeHRM");
+		
 
 
 	}
@@ -42,10 +41,11 @@ public final class OrangeHRMTests extends BaseTest {
 		CommonUtils.maximizeWindow();
 		OrangeHRMLogInPage ohrml=new OrangeHRMLogInPage();
 		ohrml.enterUserName(data.get("userName")).enterPassword(data.get("password")).clickLogIn();
-
+		
 		boolean value=ohrml.errorDisplay();
 		ohrml.PrintError();
 		assertTrue(value);
+		
 	}
 
 	@Test
@@ -54,6 +54,8 @@ public final class OrangeHRMTests extends BaseTest {
 		CommonUtils.maximizeWindow();
 		OrangeHRMLogInPage ohrml=new OrangeHRMLogInPage();
 		ohrml.enterUserName(data.get("userName")).enterPassword(data.get("password")).clickLogIn().clickWelcome().clickLogOut();
+		String title=CommonUtils.getPageTitle();
+		Assertions.assertThat(title).isEqualTo("OrangeHRM");
 
 	}
 
@@ -63,7 +65,8 @@ public final class OrangeHRMTests extends BaseTest {
 		OrangeHRMLogInPage ohrml=new OrangeHRMLogInPage();
 		ohrml.enterUserName(data.get("userName")).enterPassword(data.get("password")).clickLogIn();
 		OrangeHRMDashboardPage oh=new OrangeHRMDashboardPage();
-		oh.clickAdmin().enterEmplyeeUserName(data.get("employeeUserName")).enterRole().enterEmployeeName(data.get("employeeName")).enterStatus().clickSearch();
+	String text=	oh.clickAdmin().enterEmplyeeUserName(data.get("employeeUserName")).enterRole().enterEmployeeName(data.get("employeeName")).enterStatus().clickSearch().getNoRecordFoundtext();
+Assertions.assertThat(text).isEqualToIgnoringCase("No Records Found");
 
 	}
 
